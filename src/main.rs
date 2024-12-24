@@ -4,7 +4,7 @@ use crate::days::*;
 use std::env::args;
 use std::time::Instant;
 
-const CHALLENGES: [fn(); 9] = [
+const CHALLENGES: [fn(); 10] = [
     day_01::challenge,
     day_02::challenge,
     day_03::challenge,
@@ -14,6 +14,7 @@ const CHALLENGES: [fn(); 9] = [
     day_07::challenge,
     day_08::challenge,
     day_09::challenge,
+    day_10::challenge,
 ];
 
 fn main() {
